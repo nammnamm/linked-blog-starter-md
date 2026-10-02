@@ -1,0 +1,2 @@
+lehet javitani utolag de az utolso ido lesz figyelembe veve ha meg 6 pontta van akkor rendben
+
