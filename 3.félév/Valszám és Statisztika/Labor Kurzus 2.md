@@ -105,3 +105,35 @@ kell tesztállomány saját eloszlásra s ráhív plot a tesztet is itt megírju
 
 discrete cfd felir ami a fejlécén kívűl üres
 
+function F = DiscreteCDF(x, distribution_type, parameters)
+
+(ez egy alias)f = @(x) DiscreteCDF(x, distribution_type, parameters);
+n= length(x);
+F = zeros(1, n);
+x_min = 0;
+
+
+switch distribution_type
+		case 'geometric'
+			x_min = 1;
+end(ha valami más lesz akkor át kell írni itt valamit)
+
+F(1) = sum(f(x_min:x(1)));
+
+for i = 2: n
+	F(i) = F(i-1) + f(x(i-1):x(i)));
+end
+end
+
+
+
+tesztallomany
+
+function testDiscrete
+x = [1:8];
+p= 0,33
+distribution_type = 'geometric';
+parameters = p;
+f = DiscretePDF(x, distribution_type, parameters);
+
+end
