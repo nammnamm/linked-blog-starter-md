@@ -90,3 +90,18 @@ Nevezetes diszkrét valószínűségi változók
 
 suruseg es eloszlasfgv
 
+cdg valtozatok eloszlasfuggvenyt kell kiszamolna am
+a cdf fuggvenyek teljesen uresek
+
+
+a discrete az osszegzes a folytonos integralas
+
+a discrete esetet leimtegrál.hogy folytonos kegyen csak simán lecserél operátor a discreteket megirjuk itt otthon lemasol s kicserel integralra
+
+s megnezunk 1 peldat s az alapjan meg lehet csinalni
+
+
+kell tesztállomány saját eloszlásra s ráhív plot a tesztet is itt megírjuk s majd átírjuk arra 
+
+discrete cfd felir ami a fejlécén kívűl üres
+
