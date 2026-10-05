@@ -80,3 +80,41 @@ Események függetlensége:
      (Ai)(1 tol n ig) - páronként P(Ai metszve Aj) = P(Ai)P(Aj), barmeky i,j eleme { 1,...,n} i!=j
      -teljesen függetlenek.  P(metszve(1 tol l ig)Ai) = szogletes metszet(1 tol l' ig)P(Ai)
 PLUSZPONT. Ha egy esemény valószínűsége 1 az a biztos esemény? 5 pontos kérdés következő órára PLUSZPONT
+
+ha teljesen fuggetlen akkor páronként is az de fordítva nem igaz
+
+nagy omega = {w1, w2, w3, w4}
+A1 = {w1, w4}
+A2 = {w2, w4}
+A3 = {w3, w4}.       vizsgálják meg mi történik
+
+
+
+Valószínűségi modellek:
+           Bernoulli visszatevéssel 2 állapottal(Binomiális modell)
+
+A valószínűség P(A)=p.  P(!A)a = 1-p = q
+n ismétlés mi annak a valószínűsége hogy k szor bekovetkezett és n-k szor nem
+
+n- ism kszor A, n-k szor !A
+
+urna A fehér golyó B lila golyó
+
+a/a+b. ez. p.  b/a+b.   ez 1-p
+
+B(lent n,k)  = U[A(lent i1) metszet Ai2 metszet .... metszet Aik metszet !Aik+1 metszve .... metszve !Ain]
+
+1<=i1<i2<....<ik<=n
+
+P(Bn,k) = sum P(Ai1 metszve ... metszve Ai2 metszve !Aik+1 metszve ...metszve !Ain)
+[Ai1 metszve .... metszve Aik metszve !Aik+1 metszve ... !Ain] metszve [Aj1 metszve ... metszve Ajk metszve !Ajk+1 metszve .... metszve Ajn] = lehetetlen esemény
+
+valamiért a fenti metszetek a bernoulli mák és el volt mondva szóban de a jele metszet votlt
+
+
+P(Bn,k) = sum P(A1)... P(Ak)(idaig p^k)P(!Ak+1) ... P(!An)(a masiktol idaig q^(n-k))  =Cnk p^k q^(n-k)
+
+
+Megj.    sum(k=0 tol n ig)P(Bn,k) = (p+q)^n=1
+
+(Bn,k)(k=0,n) t.e.r.                   U(k=0 tol n ig)Bn,k = nagy omega
