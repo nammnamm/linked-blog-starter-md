@@ -50,3 +50,5 @@ fg. val
      P(A|B) >= 0
      P(nagy omega | B) = P(nagy omega metszve B)/ P(B)= P(B)/P(B) = 1
      P(U(1 tol n ig)Ai|B) = P((U(1 tol nig )Ai)metszve B)/ P( B) = P(U(1tol n ig)(Ai metszve B))/ P(B) = sum( 1 tol n ig)P(Ai metszve B)/P(B) = sum( 1 tol n ig)P(Ai|B)
+
+     
