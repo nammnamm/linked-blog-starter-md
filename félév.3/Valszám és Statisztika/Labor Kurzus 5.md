@@ -88,3 +88,20 @@ sqrt 2 pi h1(Y) egyenlo 1 minusz S (minusz sqrt2, sqrt2)
 h2 szor cg -> c
 
 ez mind benne van pdf szopas
+
+
+sima hazi a pszeudokodot implemental beletesz 2 lepesszamlalo uY szamlalo és egy lepesszam az F fuggveny kiertekeleseit szamolja
+
+uy szamlalo   3 soron belul valahova
+f kiertekeles szamolo 11 sor utan
+onnan tudjuk hogy jo ha megnezzuk I vel c sqrt2pi/2 vagy a masik
+a hisztogram egy origoban csucsosodo standard normalis eloszlas
+
+
+
+pluszfeladat papiron meghataroz alfa konstans hogy surusegfgv legyen
+megszerkeszt h1 h2 geogebraban is jo
+
+0 kisebb egyenlo h1 x kisebbegyenlo fx kisebbegyenlo h2x kisebbegyenlo cgx es meg barmely x eleme R kiszamol E(Nf)= integral h2y -h1ydy egyszeru h1 h2 re s a. papir szamitast hasonlít a kódhoz
+
+a kod csak siman bepotyog fuggveny 
