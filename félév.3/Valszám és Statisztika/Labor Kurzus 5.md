@@ -86,3 +86,5 @@ sqrt 2 pi f(Y) egyenlo e a minusz S edikenen
 sqrt 2 pi h1(Y) egyenlo 1 minusz S (minusz sqrt2, sqrt2)
 
 h2 szor cg -> c
+
+ez mind benne van pdf szopas
