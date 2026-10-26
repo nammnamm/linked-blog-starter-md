@@ -54,7 +54,7 @@ x0-pont körül
 x0 = 0
 f(x) = f(x0) + (x-x0)/1!f'(0) + (x2/2!)f''(0) +...
 
-pl Cauchy g(x) = 1/(pi^2+x^2) ez Y, x eleme R
+pl Cauchy g(x) = 1/pi(1+x^2) ez Y, x eleme R
 c=sqrt(2pi/e)
 
 X~N(0,1) f(x)=(1/sqrt(2pi))e^((-x^2)/2), x eleme R
@@ -70,3 +70,19 @@ f''(0)=1
 e->(x^2)/2
 
 e^(x^2/2) megkozelitoleg 1-x^2/2+(x^2/2)^2/2+...+1-(x^2)/2+(x^4)/8-(x^6)/48+....
+
+
+W= Ucg(Y)=U c 1/(1+ Y negyzet) <= f(Y) =1/sqrt(2pi)szor e ^(-(Y^2)/2) osztott sqrt 2pi vel 2 szer talán
+a vége 
+U szor pi/sqrt(e) szor 1/(1/2 + (Y^2)/2) <=e-Y2/2
+
+1/2 beta
+S az (Y^2)/2
+
+W=(alfaU)/(beta + S)
+
+sqrt 2 pi f(Y) egyenlo e a minusz S edikenen
+
+sqrt 2 pi h1(Y) egyenlo 1 minusz S (minusz sqrt2, sqrt2)
+
+h2 szor cg -> c
